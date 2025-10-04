@@ -223,6 +223,26 @@ footer {
 footer p {
     font-size: 0.9rem;
     opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+.github-link {
+    font-size: 0.85rem;
+}
+
+.github-link a {
+    color: var(--orange);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.github-link a:hover {
+    color: var(--white);
+    text-decoration: underline;
 }
 
 /* Tablet Styles */
